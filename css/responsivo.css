@@ -41,6 +41,9 @@
     .header_menu ul li a:hover {
         border-color: #fff;
     }
+    .header_menu ul li a.menu-active {
+        border-color: #fff;
+      }
     /* Introduction */
     .introduction h1 {
         font-size: 36px;
@@ -51,11 +54,26 @@
         background: url("../img/bg-mobile.jpg") no-repeat center;
         background-size: cover;
     }
+    /* Internal Introduction */
+    .internal-introduction {
+        margin-top: 0;
+      }
     /* Call */
     .call {
         padding-top: 10px;
     }
+    /* Quality Home */
     .quality::after {
         display: none;
     }
+    /* About */
+    .mission-about p {
+        font-size: 14px;
+        line-height: 20px;
+        padding-right: 0;
+      }
+      .mission-about ul li {
+        font-size: 14px;
+        line-height: 25px;
+      }
 }
